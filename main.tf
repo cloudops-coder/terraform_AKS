@@ -1,7 +1,7 @@
-variable "subid"{}
+#variable "subid"{}
 provider "azurerm"{
     features {}
-    subscription_id = var.subid
+    subscription_id = $SUBSCRIPTION_ID
 }
 
 resource "azurerm_resource_group" "maheshaks" {
