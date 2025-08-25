@@ -60,7 +60,7 @@ jobs:
 
     defaults:
       run:
-        shell: powershell
+        shell: bash
 
     steps:
       - name: Checkout
